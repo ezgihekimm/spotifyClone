@@ -6,3 +6,13 @@
 //
 
 import Foundation
+
+struct Genres: Decodable {
+    let genres: [String]
+}
+
+struct TokenResponse: Codable {
+    let accessToken: String
+}
+
+
